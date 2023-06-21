@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  place-content: center;
+}
+button {
+  font-family: inherit;
+}
+p {
+  line-height: 1.8;
+}
+.main-container h1 {
+  color: #fff;
+  margin: 2rem 0 1rem;
+}
+.main-container img {
+  background-color: hsl(213, 20%, 25%);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.main-container p {
+  color: hsl(217, 12%, 63%);
+}
+.main-container,
+.thank-you {
+  background-image: linear-gradient(
+    320deg,
+    hsl(216deg 12% 8%) 0%,
+    hsl(220deg 13% 9%) 20%,
+    hsl(214deg 14% 10%) 29%,
+    hsl(218deg 14% 11%) 36%,
+    hsl(213deg 15% 12%) 43%,
+    hsl(218deg 16% 13%) 50%,
+    hsl(215deg 17% 14%) 57%,
+    hsl(217deg 17% 15%) 64%,
+    hsl(214deg 17% 16%) 71%,
+    hsl(215deg 20% 17%) 80%,
+    hsl(213deg 20% 18%) 100%
+  );
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  max-width: 30em;
+}
+.main-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+.main-container ul li button {
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  border: 0;
+  padding-top: 0.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-container ul li button:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.main-container ul li button:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #fff;
+  background-image: linear-gradient(
+    290deg,
+    hsl(25deg 100% 38%) 0%,
+    hsl(25deg 100% 39%) 20%,
+    hsl(25deg 99% 41%) 29%,
+    hsl(25deg 99% 42%) 36%,
+    hsl(25deg 99% 44%) 43%,
+    hsl(25deg 98% 45%) 50%,
+    hsl(25deg 98% 47%) 57%,
+    hsl(25deg 98% 48%) 64%,
+    hsl(25deg 98% 50%) 71%,
+    hsl(25deg 97% 51%) 80%,
+    hsl(25deg 97% 53%) 100%
+  );
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  padding: 0.8rem 0 0.6rem;
+  border-radius: 5rem;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.thank-you h2 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.thank-you p {
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 2rem;
+}
+.thank-you img {
+  display: block;
+  margin: 0 auto 2rem;
+}
+p.gray {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 30px;
+  padding: 0.2rem 0.5rem 0;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+.hidden {
+  display: none;
+}
